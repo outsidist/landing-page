@@ -8,7 +8,9 @@
     align-items: center;
     color:aliceblue;
     background: midnightblue;
-    padding: 20px 0px 20px 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
 }
 
 .navbar > ul {
