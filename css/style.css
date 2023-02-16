@@ -1,0 +1,60 @@
+.overall {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    color:aliceblue;
+    background: midnightblue;
+    padding: 20px 0px 20px 100px;
+}
+
+.navbar > ul {
+    display: flex;
+}
+
+.hero {
+    display: flex;
+}
+
+.herobox {
+    display: flex;
+}
+
+.team {
+    display: flex;
+}
+
+.colleague {
+    display: flex;
+}
+
+.testimonials {
+    display: flex;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.author {
+    font-weight: bold;
+    font-size: large;
+}
+
+.cta {
+    display: flex;
+}
+
+.ctabox {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    background-color: midnightblue;
+    color:aliceblue;
+    text-align: center;
+}
