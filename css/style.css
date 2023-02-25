@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     color:aliceblue;
-    background: midnightblue;
+    background: #1f2937;
     padding-left: 100px;
     padding-right: 100px;
     justify-content: space-between;
@@ -15,14 +15,36 @@
 
 .navbar > ul {
     display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    list-style-type: none;
+}
+
+.navbar > ul > li {
+    margin-left: 10px;
 }
 
 .hero {
     display: flex;
+    background: #1f2937;
+    color:aliceblue;
+    padding: 100px; 
+    justify-content: space-between;
 }
 
 .herobox {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 100%;
+}
+
+.hero>.heroimage {
+    background-color:aliceblue; 
+    max-width: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5%;
 }
 
 .team {
@@ -56,7 +78,23 @@
 
 .footer {
     display: flex;
-    background-color: midnightblue;
+    background-color: #1f2937;
     color:aliceblue;
     text-align: center;
+}
+
+.herobox>button {
+    background-color: #3882F6;
+    color: aliceblue;
+    border-radius: 8px;
+    box-shadow: none;
+    border: none;
+    padding: 12px;
+    max-width: 120px;
+}
+
+.herobox>h1 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
