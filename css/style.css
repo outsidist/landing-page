@@ -115,6 +115,8 @@
     justify-content: center;
     text-align: center;
     color: #1f2937;
+    border-bottom: 1px solid #adb4bc;
+    margin: 20px;
 }
 
 .headshot {
