@@ -48,16 +48,16 @@
     border-radius: 5%;
     overflow: hidden;
     align-self: center;
-    min-height: 400px;
-    min-width: 300px;
-}
-
-.team {
-    display: flex;
+    min-height: 200px;
+    min-width: 150px;
+    max-height: 400px;
+    max-width: 300px;
 }
 
 .colleague {
     display: flex;
+    flex: 1;
+    flex-direction: column;
 }
 
 .testimonials {
@@ -103,3 +103,32 @@
     margin-bottom: 0px;
     margin-top: 0px;
 }
+
+.team {
+    display: block;
+    flex: 1;
+}
+
+.team>h2 {
+    font-weight: 800px;
+    font-size: 36px;
+    justify-content: center;
+    text-align: center;
+    color: #1f2937;
+}
+
+.headshot {
+    height: 140px;
+    width: 140px;
+}
+
+.colleagues {
+    display: flex;
+}
+
+.colleague {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
