@@ -30,21 +30,26 @@
     color:aliceblue;
     padding: 100px; 
     justify-content: space-between;
+    max-height: 800px;
 }
 
 .herobox {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-basis: 100%;
+    flex-basis: 400%;
 }
 
 .hero>.heroimage {
+    display: flex;
     background-color:aliceblue; 
-    max-width: 50%;
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 5%;
+    overflow: hidden;
+    align-self: center;
+    min-height: 400px;
+    min-width: 300px;
 }
 
 .team {
