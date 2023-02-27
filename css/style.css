@@ -29,15 +29,16 @@
     background: #1f2937;
     color:aliceblue;
     padding: 100px; 
-    justify-content: space-between;
     max-height: 800px;
+    justify-content: space-between;
 }
 
 .herobox {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-basis: 400%;
+    flex-basis: 200%;
+    max-width: 50%;
 }
 
 .hero>.heroimage {
@@ -47,11 +48,11 @@
     margin-right: 20px;
     border-radius: 5%;
     overflow: hidden;
-    align-self: center;
     min-height: 200px;
     min-width: 150px;
     max-height: 400px;
     max-width: 300px;
+    justify-items: center;
 }
 
 .colleague {
