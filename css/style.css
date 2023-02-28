@@ -1,3 +1,8 @@
+body, p, h1, h2, h3 {
+    font-family: 'Roboto', arial;
+    margin: 0px;
+}
+
 .overall {
     display: flex;
     flex-direction: column;
@@ -11,6 +16,7 @@
     padding-left: 100px;
     padding-right: 100px;
     justify-content: space-between;
+    font-family: 'Roboto', arial;
 }
 
 .navbar > ul {
@@ -31,6 +37,7 @@
     padding: 100px; 
     max-height: 800px;
     justify-content: space-between;
+    font-family: 'Roboto', arial;
 }
 
 .herobox {
@@ -63,6 +70,7 @@
 
 .testimonials {
     display: flex;
+    font-family: 'Roboto', arial;
 }
 
 .quote {
@@ -86,6 +94,7 @@
     display: flex;
     background-color: #1f2937;
     color:aliceblue;
+    justify-content: center;
     text-align: center;
 }
 
@@ -97,6 +106,7 @@
     border: none;
     padding: 12px;
     max-width: 120px;
+    font-size: small;
 }
 
 .herobox>h1 {
@@ -108,6 +118,9 @@
 .team {
     display: block;
     flex: 1;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-family: 'Roboto', arial;
 }
 
 .team>h2 {
@@ -118,20 +131,30 @@
     color: #1f2937;
     border-bottom: 1px solid #adb4bc;
     margin: 20px;
+    padding-bottom: 20px;
 }
 
 .headshot {
-    height: 140px;
-    width: 140px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 10%;
 }
 
 .colleagues {
     display: flex;
+    margin-top: 40px;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
 }
 
 .colleague {
     display: flex;
     flex: 1;
     align-items: center;
+    margin: 20px;
+    flex-wrap: wrap;
+    text-align: justify;
 }
 
