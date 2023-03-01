@@ -71,23 +71,60 @@ body, p, h1, h2, h3 {
 .testimonials {
     display: flex;
     font-family: 'Roboto', arial;
+    flex-direction: column;
+    padding: 40px;
+    padding-bottom: 30px;
+    background-color: #a1aab3;
+    color: rgb(46, 48, 50)
 }
 
 .quote {
     font-style: italic;
+    flex: 1;
+    text-align: center;
+    font-size: 1.75em;
+    font-weight:lighter;
 }
 
-.author {
+.testimonials>.author {
     font-weight: bold;
-    font-size: large;
+    font-size: 1.5em;
+    flex: 1;
+    text-align: center;
+    flex-direction: row-reverse;
+    padding-left: 50%
 }
 
 .cta {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    font-size: small;
 }
 
 .ctabox {
     display: flex;
+    background-color: #3882f6;
+    color: aliceblue;
+    padding: 50px;
+    flex-direction: row;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.ctabox>button {
+    display: block;
+    margin-left: 80px;
+    height: 2.5em;
+    width: 100px;
+    background-color: #3882F6;
+    border: aliceblue 2px solid;
+    color: aliceblue;
+    align-self: center;
+    border-radius: 10%;
 }
 
 .footer {
